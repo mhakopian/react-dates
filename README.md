@@ -15,6 +15,7 @@
 ## Live Playground
 
 For examples of the datepicker in action, go to http://airbnb.io/react-dates.
+
 OR
 
 [![Runme](https://stg.runme.io/static/button.svg)](https://stg.runme.io/run?app_id=1149748b-300a-4ce0-845d-a3933489706c) to build and run on Runme.io
