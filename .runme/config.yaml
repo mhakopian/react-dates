@@ -1,0 +1,13 @@
+version: 1.0
+publish: app
+services:
+  app:
+    command: npm run storybook
+    environment:
+      PKG: react-dates
+    build:
+      type: dockerfile
+      config: ./.runme/Dockerfile
+    ports:
+      - container: 6006
+        public: 80
